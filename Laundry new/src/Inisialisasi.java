@@ -17,32 +17,46 @@ public class Inisialisasi extends taste {
      public int harga;
 
     @Override
-    public String getNama() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      public int getpaket() {
+        return paket;
     }
-
-    @Override
-    public int getterima() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getambil() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getkg() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public int getpaket() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
+    public void setpaket(int paket) {
+        this.paket = paket;
+    }  
     @Override
     public int getharga() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return harga;
+    }
+    public void setharga(int harga) {
+        this.harga = harga;
+     
+    }
+     @Override
+    public String getNama() {
+        return nama;
+    }
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+     @Override
+    public int getterima() {
+        return terima;
+    }
+    public void setterima(int terima) {
+        this.terima = terima;
+    }
+     @Override
+    public int getambil(){
+       return ambil; 
+    }
+    public void setambil(int ambil){
+        this.ambil = ambil;
+    }
+     @Override
+    public int getkg() {
+        return kg;
+    }
+    public void setkg(int kg) {
+        this.kg = kg;
     }
 }
