@@ -9,10 +9,16 @@
  * @author Acer
  */
 public abstract class taste {
-     public abstract String getNama();
-     public abstract int getterima();
-     public abstract int getambil();
-     public abstract int getkg();
-     public abstract int getpaket();
-     public abstract int getharga();
-   }
+
+    public abstract String getNama();
+
+    public abstract int getterima();
+
+    public abstract int getambil();
+
+    public abstract int getkg();
+
+    public abstract int getpaket();
+
+    public abstract int getharga();
+}
