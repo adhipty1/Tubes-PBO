@@ -76,10 +76,6 @@ public class Inisialisasi extends taste {
         nama = keyboard.nextLine();
         System.out.print("Silahkan masukkan jumlah berat cucian : ");
         kg = keyboard.nextInt();
-        System.out.print("Tanggal mulai mencuci : ");
-        terima = keyboard.nextInt();
-        System.out.print("Tanggal perkiraan selesai dicuci : ");
-        ambil = keyboard.nextInt();
         System.out.println("===== Silahkan pilih paket pencucian anda ==== \n");
         System.out.println("1. Reguler 3 Hari \n");
         System.out.println("2. Express 1 hari \n");
@@ -95,6 +91,10 @@ public class Inisialisasi extends taste {
         } else if (paket == 4) {
             harga = kg * 13500;
         }
+        System.out.print("Tanggal mulai mencuci : ");
+        terima = keyboard.nextInt();
+        System.out.print("Tanggal perkiraan selesai dicuci : ");
+        ambil = keyboard.nextInt();
         setpaket(paket);
         setNama(nama);
         setambil(ambil);
